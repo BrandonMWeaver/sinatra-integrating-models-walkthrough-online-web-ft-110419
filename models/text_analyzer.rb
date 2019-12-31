@@ -15,4 +15,8 @@ class TextAnalyzer
     return text.scan(/[aeiou]/).size
   end
   
+  def count_of_constants
+    return text.scan(/[bcdfghjklmnpqrstvwxyz]/).size
+  end
+  
 end
