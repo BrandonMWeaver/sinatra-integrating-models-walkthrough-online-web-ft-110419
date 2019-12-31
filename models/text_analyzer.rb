@@ -12,7 +12,7 @@ class TextAnalyzer
   end
   
   def count_of_vowels
-    text.scan(/[aeiou]/).size
+    return text.scan(/[aeiou]/).size
   end
   
 end
